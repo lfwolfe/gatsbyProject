@@ -1,9 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Layout } from "../components/Layout"
+import "../css/test2.scss"
 
-export default () => (
-  <Layout>
-    Hello w <Link to="/blog/">blog page</Link>
-  </Layout>
-)
+export default () => <Layout>Hello</Layout>

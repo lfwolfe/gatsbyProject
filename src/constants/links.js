@@ -1,6 +1,6 @@
 export default [
   { path: "/", text: "home" },
-  { path: "/rooms", text: "rooms" },
+  { path: "/tours", text: "tours" },
   { path: "/blog", text: "blog" },
   { path: "/contact", text: "contact" },
 ]
