@@ -1,5 +1,5 @@
 import React from "react"
-import { FaWallet, FaTree } from "react-icons/fa"
+import { FaWallet, FaTree, FaSocks } from "react-icons/fa"
 
 export default [
   {
@@ -15,7 +15,7 @@ export default [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero blanditiis unde accusantium?",
   },
   {
-    icon: <FaWallet />,
+    icon: <FaSocks />,
     title: "amazing comfort",
     text:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero blanditiis unde accusantium?",
