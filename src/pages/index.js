@@ -5,6 +5,7 @@ import Banner from "../components/Banner"
 import { Link } from "gatsby"
 import { About } from "../components/Home/About"
 import { Services } from "../components/Home/Services"
+import { Button2 } from "../components/examples/Button2"
 export default () => (
   <Layout>
     <SimpleHero>
@@ -19,5 +20,6 @@ export default () => (
     </SimpleHero>
     <About />
     <Services />
+    <Button2 label="Test Button" />
   </Layout>
 )

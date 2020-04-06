@@ -27,9 +27,9 @@ export const Navbar = () => {
               : `${styles.navLinks}`
           }
         >
-          {links.map(link => {
+          {links.map((link, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link to={link.path}>{link.text}</Link>
               </li>
             )
